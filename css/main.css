@@ -1,3 +1,52 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+    background-color:white;
+    box-sizing: border-box;
+
+}
+
+#principal{
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20cm;
+}
+
+header {
+height:7em;
+ position:fixed;
+ top:0;
+ border:1px solid white;
+ width:100%;
+ z-index:999;
+}
+/*formato del logo*/
+.format-logo{
+    display:inline-block;
+    width: 6%;
+    left:2em;
+    padding-left: 5em;
+    padding-top:0.5em;
+}
+/*barra de Navegacion*/
+.format-nav{
+    position:absolute;
+    text-decoration: none;
+    text-align: center;
+    top:3em;
+    left:55em;
+   
+
+}
+/*formato de los Links*/
+.format-tex-a{
+    color:white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin:0.5em;
+}
+/*borde del log in */
+#log-in{
+    border:1px solid white;
+    padding:0.5em;
+    border-radius:15%;
+}
