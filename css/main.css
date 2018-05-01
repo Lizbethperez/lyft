@@ -15,7 +15,6 @@ header {
 height:7em;
  position:fixed;
  top:0;
- border:1px solid white;
  width:100%;
  z-index:999;
 }
