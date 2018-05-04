@@ -1,7 +1,17 @@
 body{
     background-color:white;
     box-sizing: border-box;
+    margin:0;
 
+}
+
+/*PARTE SUPERIOR O PRINCIPAL */
+header {
+   height:7em;
+   position:fixed;
+   top:0;
+   width:100%;
+   z-index:999;
 }
 
 #principal{
@@ -11,13 +21,6 @@ body{
     height: 20cm;
 }
 
-header {
-height:7em;
- position:fixed;
- top:0;
- width:100%;
- z-index:999;
-}
 /*formato del logo*/
 .format-logo{
     display:inline-block;
@@ -33,9 +36,8 @@ height:7em;
     text-align: center;
     top:3em;
     left:55em;
-   
-
 }
+
 /*formato de los Links*/
 .format-tex-a{
     color:white;
@@ -45,6 +47,7 @@ height:7em;
     font-family: 'Gotham Sm A',sans-serif;
     font-weight: lighter;
 }
+
 /*borde del log in */
 #log-in{
     border:1px solid white;
@@ -67,7 +70,7 @@ h2{
 
 h3{
   color:#352384;
-  font-size: 1em; 
+  font-size: 1em;
   text-align: left;
   margin-left:3em;
   font-family: 'Gotham Sm A',sans-serif;
@@ -81,6 +84,7 @@ h3{
     top:8em;
     right: 0;
 }
+
 .input{
     border: none;
     border-bottom: 1px solid blue;
@@ -90,7 +94,8 @@ h3{
     height: 1em;
     margin-top:1em;
     margin-left:4em;
-  }
+}
+
 .buttom-become{
     width:5%;
     background-color: #FF00BF;
@@ -111,13 +116,52 @@ h3{
     top:3.8em;
     left:3.3em;
 }
+
 .small-format2{
     position:relative;
     top:3.7em;
     left:3.3em;
 }
+
 .link-sing{
     position:relative;
     left:4em;
     top:2em;
+}/*Se cierra la parte superior o principal*/
+
+ /*Section Ride in Minutes Imagen del celular*/
+
+ #img-celphone {
+     width:20%;
+     height: 45vh;
+     position:absolute;
+     left:65em;
+     display:inline-block;
+     top:10em;
+ }
+
+ .format-section {
+	  position:absolute;
+   	height:18cm;
+    width: 100%;
+    background: linear-gradient(to bottom, #76278f 0%,#2b1e66 100%);*/
 }
+
+.format-article{
+  padding-left: 15em;
+  padding-top: 10em;
+}
+
+.format-h2 {
+    color:white;
+    font-size:2em;
+    text-align: justify;
+    margin: 0;
+}
+
+.fotmat-h3{
+    color:white;
+    font-size: 1em;
+    text-align:justify;
+    margin: 0;
+}/*Se Cierra Section Ride in Minutes Imagen del celular*/
