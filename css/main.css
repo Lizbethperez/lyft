@@ -24,35 +24,35 @@ header {
 /*formato del logo*/
 .format-logo{
     display:inline-block;
-    width: 6%;
     left:2em;
     padding-left: 5em;
     padding-top:0.5em;
+    width: 6%;
 }
 /*barra de Navegacion*/
 .format-nav{
+    left:55em;
     position:absolute;
     text-decoration: none;
     text-align: center;
     top:3em;
-    left:55em;
 }
 
 /*formato de los Links*/
 .format-tex-a{
     color:white;
     font-size: 1.5em;
-    text-decoration: none;
-    margin:0.5em;
     font-family: 'Gotham Sm A',sans-serif;
     font-weight: lighter;
+    margin:0.5em;
+    text-decoration: none;
 }
 
 /*borde del log in */
 #log-in{
     border:1px solid white;
-    padding:0.5em;
     border-radius:15%;
+    padding:0.5em;
 }
 
 .navegacion:hover{
@@ -63,100 +63,101 @@ header {
 h2{
   color:#352384;
   font-size: 3em;
-  text-align: left;
-  margin-left: 1em;
   font-family: 'Gotham Sm A',sans-serif;
+  margin-left: 1em;
+  text-align: left;
 }
 
 h3{
   color:#352384;
   font-size: 1em;
-  text-align: left;
-  margin-left:3em;
   font-family: 'Gotham Sm A',sans-serif;
+  margin-left:3em;
+  text-align: left;
 }
 
 .format-form{
-    width: 40%;
-    height: 60%;
     background-color: white;
+    height: 60%;
     position: absolute;
-    top:8em;
     right: 0;
+    top:8em;
+    width: 40%;
 }
 
 .input{
     border: none;
     border-bottom: 1px solid blue;
-    width: 40%;
-    text-align: left;
-    padding-bottom: 1em;
     height: 1em;
     margin-top:1em;
     margin-left:4em;
+    padding-bottom: 1em;
+    text-align: left;
+    width: 40%;
 }
 
 .buttom-become{
-    width:5%;
     background-color: #FF00BF;
-    padding: 1em;
-    text-align: center;
-    color:white;
-    margin-left:1em;
-    font-family: 'Gotham Sm A',sans-serif;
-    position:relative;
-    text-decoration: none;
     border-radius: 10%;
-    top:2em;
+    color:white;
+    font-family: 'Gotham Sm A',sans-serif;
     left:2em;
+    margin-left:1em;
+    padding: 1em;
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+    top:2em;
+    width:5%;
 }
 
 .small-format{
+    left:3.3em;
     position:relative;
     top:3.8em;
-    left:3.3em;
 }
 
 .small-format2{
+    left:3.3em;
     position:relative;
     top:3.7em;
-    left:3.3em;
 }
 
 .link-sing{
-    position:relative;
     left:4em;
+    position:relative;
     top:2em;
 }/*Se cierra la parte superior o principal*/
 
  /*Section Ride in Minutes Imagen del celular*/
 
  #img-celphone {
-     width:20%;
-     height: 45vh;
-     position:absolute;
-     left:65em;
      display:inline-block;
+     height: 45vh;
+     left:65em;
+     position:absolute;
      top:10em;
+     width:20%;
  }
 
  .format-section {
-	  position:absolute;
-   	height:18cm;
+    background: linear-gradient(to bottom, #76278f 0%,#2b1e66 100%);
+	  height:18cm;
+    position:absolute;
     width: 100%;
-    background: linear-gradient(to bottom, #76278f 0%,#2b1e66 100%);*/
 }
 
 .format-article{
-  padding-left: 15em;
-  padding-top: 10em;
+    padding-left: 15em;
+    padding-top: 10em;
 }
 
 .format-h2 {
     color:white;
     font-size:2em;
-    text-align: justify;
     margin: 0;
+    text-align: justify;
+
 }
 
 .fotmat-h3{
@@ -165,3 +166,73 @@ h3{
     text-align:justify;
     margin: 0;
 }/*Se Cierra Section Ride in Minutes Imagen del celular*/
+
+/*Seccion de Videos */
+
+.format-section-video{
+  height: 30cm;
+  position: absolute;
+  top: 38cm;
+  width: 100%;
+}
+
+.format-article-right{
+  position:absolute;
+  width: 35%;
+  left: 0;
+  height: 10cm;
+
+}
+
+.format-articule-left{
+  height: 10cm;
+  left:17.3cm;
+  position:absolute;
+  top:0;
+  width:65%
+}
+
+.format-articule-video2-right{
+  height: 10cm;
+  left:0;
+  position:absolute;
+  top:10cm;
+  width:65%;
+  }
+
+.format-articule-video2-left{
+  position:absolute;
+  width:35%;
+  height: 10cm;
+  top:10cm;
+  left:32cm;
+}
+
+.format-articule-video3{
+  top:20cm;
+}
+
+.format-video{
+  height:10cm;
+  width:100%;
+}
+
+.format-text-title-video{
+  color:black;
+  font-size:24px;
+  text-align: justify;
+}
+
+.format-text-video{
+  color:black;
+  font-size: 20px;
+  margin: 2.5em;
+  text-align: justify;
+}
+
+.format-text-watch-video{
+  color:black;
+  font-size:15px;
+  padding-left: 2em;
+  text-align: justify;
+}
